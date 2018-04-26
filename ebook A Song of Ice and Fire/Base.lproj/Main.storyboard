@@ -1,24 +1,1509 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VEb-GG-etS">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="rmI-CH-1MF">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController id="b7d-F1-SZy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mXX-LT-LJc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hTP-RE-t0D">
+                                <rect key="frame" x="0.0" y="519" width="375" height="148"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">故事主要發生在一個虛幻的大陸：維斯特洛上的七大王國。維斯特洛是一片大約有南美洲那麼大的大陸，有可以上溯到1200年前的悠久歷史。在那裡每一個季節通常持續數年。這片大陸的原住民是森林之子。森林之子與大自然和諧共處，並且使用魔法。
+
+最早的人類先民們最早期的武士帶著青銅武器和騎術，通過維斯特洛與東方厄斯索斯大陸相連的陸橋（在隨後的戰爭中被森林之子用魔法摧毀，成為現在的冬恩群島和石階群島）登陸維斯特洛，並與森林之子之間展開了一系列長久的戰爭。戰爭最後以在千面嶼簽訂的和平協議結束，根據協議，先民得到了所有的開闊地，而森林之子保有森林。
+
+四千年之後，異鬼的入侵削弱了和平協議。異鬼是一個來自於極北之地的神秘種族，他們橫掃過維斯特洛的北部，留下了無盡的死亡和廢墟，隨之而來的是幾乎長達一代人的寒夜和持續幾十年的冬季。最終，先民和森林之子聯合起來，在黎明之戰中將異鬼擊潰，並且在其南下的必經之路上建立起了巨大的絕境長城，以防異鬼再次南侵。
+
+大約在黎明之戰兩千年後，來自東方厄斯索斯大陸的安達爾人揮舞著鐵制兵器，騎著戰馬，帶著對七神的信仰穿越狹海而來。他們在艾林谷登陸，並且迅速擊敗了南部王國。但是他們並沒能征服佔有地利的北部王國。隨後在維斯特洛大陸上出現了七個強大的王國：北境王國、谷地王國、河嶼王國、凱岩王國、河灣王國、風暴王國和冬恩王國等七個王國。之後在厄斯索斯出現一個稱為瓦雷利亞帝國的力量增長，大批居住於厄斯索斯大陸洛伊拿河畔的居民成為難民，並且在他們的戰士女王娜梅莉亞帶領下穿過狹海，在維斯特洛最南端登陸。洛伊拿人和當地的領主莫爾斯·馬泰爾結盟，征服了冬恩，建成了另外一個強大的王國。
+
+五個世紀之後，瓦雷利亞自由堡不斷擴張，並達到狹海，與維斯特洛建立了聯繫，並且使用龍石島作為通商口岸。儘管如此，僅僅一個世紀之後，瓦雷利亞自由堡便在一場巨大的被稱作末日浩劫的災難中被徹底摧毀。控制龍石島的瓦雷利亞家族，坦格利安家族，花了一個多世紀來儲備力量，隨後在征服者伊耿的帶領下登陸維斯特洛，開始征服之路。儘管他們的軍隊數量不多，他們卻有著西方世界中最後的三條龍，並藉此征服了整個維斯特洛大陸。七大王國中的六個在最初的戰爭中便被降服，唯獨冬恩激烈的反抗，以至於伊耿同意他們保持獨立。坦格利安家族同樣放棄了原來的信仰，改為信仰七神（儘管他們還是違背信仰，按照瓦雷利亞的傳統兄妹通婚 ），並遵守維斯特洛的風俗。在接下來的數十年中坦格利安家族撲滅了所有反對他們統治的叛亂。龍在伊耿征服維斯特洛後的150年滅絕，但是坦格利安家族依然作為維斯特洛的統治者統治著整個維斯特洛，他們的統治地位也並未受到實質性的威脅。
+
+在本書故事發生的十五年前，因坦格利安王朝的末代國王「瘋王」伊里斯二世瘋狂殘暴行為，以及其子雷加·坦格利安對北境王國艾德·史塔克之妹、風暴王國勞勃·拜拉席恩之愛人，萊安娜·史塔克的誘拐導致了一場內戰，最終導致坦格利安家族統治地位的終結。一個由勞勃·拜拉席恩，瓊恩·艾琳和艾德·史塔克領導的貴族聯盟擊敗了坦格利安家族的軍隊，隨後他們殺掉了伊里斯的繼承人和其絕大部分後嗣，除了伊里斯懷孕的妻子和他的孩子韋賽里斯逃到了龍石島。伊里斯本人被其御林鐵衛詹姆·蘭尼斯特殺死。詹姆也因此得到了弒君者的外號。伊里斯的妻子在生下丹妮莉絲·坦格利安的過程中死去，隨後丹尼莉絲被依然效忠坦格利安家族的家臣送到了狹海對面的自由城邦中。與此同時，勞勃‧拜拉席恩成為了新的國王，並迎娶了瑟曦·蘭尼斯特。她的父親泰溫，在戰爭中將維斯特洛首都君臨送給了勞勃。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="第七季" translatesAutoresizingMaskIntoConstraints="NO" id="wLj-nh-FRO">
+                                <rect key="frame" x="0.0" y="64" width="375" height="447"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Hff-4B-7wg"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="O9e-Ek-CIl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vLl-gI-EdX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="512.79999999999995" y="-178.56071964017991"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="AQ7-Na-l8d">
+            <objects>
+                <tabBarController id="VEb-GG-etS" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="NLK-ko-v0M">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="pno-a0-faX" kind="relationship" relationship="viewControllers" id="3AV-vc-oHG"/>
+                        <segue destination="adp-Rw-XHQ" kind="relationship" relationship="viewControllers" id="Ub9-3c-oJq"/>
+                        <segue destination="gFM-g8-VaB" kind="relationship" relationship="viewControllers" id="0Lu-s3-Y2e"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nyb-56-2BF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1383" y="152"/>
+        </scene>
+        <!--人物介紹-->
+        <scene sceneID="hqs-za-9xi">
+            <objects>
+                <tableViewController title="人物介紹" id="MLY-Ft-6uu" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="vhP-p4-2T1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection id="I0o-Zi-G4g">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="mdM-T6-BsG">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mdM-T6-BsG" id="U8s-z3-QY4">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="奈德·史塔克公爵" translatesAutoresizingMaskIntoConstraints="NO" id="34e-fP-LCN">
+                                                    <rect key="frame" x="0.0" y="0.0" width="130" height="100"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="奈德·史塔克" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qiE-S2-EpE">
+                                                    <rect key="frame" x="138" y="39" width="104" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="u5c-FD-tR6" kind="show" id="fXV-S1-aUR"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="B4W-KJ-eUK">
+                                        <rect key="frame" x="0.0" y="100" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="B4W-KJ-eUK" id="PSw-5K-r17">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="凱薩琳·(徒利)·史塔克" translatesAutoresizingMaskIntoConstraints="NO" id="aod-KR-Kts">
+                                                    <rect key="frame" x="0.0" y="0.0" width="130" height="100"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="凱薩琳·(徒利)·史塔克" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c0Q-1E-oXA">
+                                                    <rect key="frame" x="138" y="39" width="161" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="2BO-ZK-xuT" kind="show" id="eee-aJ-g5f"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="635-Sv-K8Q">
+                                        <rect key="frame" x="0.0" y="200" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="635-Sv-K8Q" id="Vwj-pX-2Y2">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="布蘭·史塔克" translatesAutoresizingMaskIntoConstraints="NO" id="jdN-A4-kr0">
+                                                    <rect key="frame" x="0.0" y="0.0" width="130" height="100"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="布蘭·史塔克" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pgv-9H-jgr">
+                                                    <rect key="frame" x="138" y="39" width="92" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="FRM-IH-Yr0" kind="show" id="GYE-Ph-mxL"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="SPD-CW-V5l">
+                                        <rect key="frame" x="0.0" y="300" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="SPD-CW-V5l" id="kto-nB-QvB">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="丹妮莉絲•坦格利安" translatesAutoresizingMaskIntoConstraints="NO" id="qQJ-LV-bch">
+                                                    <rect key="frame" x="0.0" y="0.0" width="130" height="100"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="丹妮莉絲·坦格利安" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Xj-5c-H2y">
+                                                    <rect key="frame" x="138" y="39" width="144" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="BKa-sA-3HO" kind="show" id="Fwv-3w-AbQ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="KrD-EQ-XgN">
+                                        <rect key="frame" x="0.0" y="400" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KrD-EQ-XgN" id="m3B-nE-tpP">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="瓊恩·雪諾" translatesAutoresizingMaskIntoConstraints="NO" id="DfA-NR-Akl">
+                                                    <rect key="frame" x="0.0" y="0.0" width="130" height="100"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="瓊恩·雪諾" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hkY-d3-ebp">
+                                                    <rect key="frame" x="138" y="39" width="75" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="k8B-8y-m58" kind="show" id="TrZ-mY-Cdq"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="iJE-XQ-cAK">
+                                        <rect key="frame" x="0.0" y="500" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="iJE-XQ-cAK" id="67l-4k-Yrj">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="珊莎·史塔克" translatesAutoresizingMaskIntoConstraints="NO" id="lZP-4z-pLm">
+                                                    <rect key="frame" x="0.0" y="0.0" width="130" height="100"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="珊莎·史塔克" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2sc-4P-Aj9">
+                                                    <rect key="frame" x="138" y="39" width="92" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Dsz-I4-bCi" kind="show" id="8Vw-0f-Iwv"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="85F-Ss-j7p">
+                                        <rect key="frame" x="0.0" y="600" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="85F-Ss-j7p" id="Y6V-PE-4lq">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="艾莉亞·史塔克" translatesAutoresizingMaskIntoConstraints="NO" id="jO2-Vi-pIc">
+                                                    <rect key="frame" x="0.0" y="0.0" width="130" height="100"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="艾麗婭·史塔克" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j0u-mP-dJK">
+                                                    <rect key="frame" x="138" y="39" width="109" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="EqO-W8-nRI" kind="show" id="jTt-vr-tzN"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="jbQ-oi-wr4">
+                                        <rect key="frame" x="0.0" y="700" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jbQ-oi-wr4" id="Whf-BS-9B6">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="瑟曦·蘭尼斯特" translatesAutoresizingMaskIntoConstraints="NO" id="d8M-yd-hDm">
+                                                    <rect key="frame" x="0.0" y="0.0" width="130" height="100"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="瑟曦·蘭尼斯特" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="omw-Oz-390">
+                                                    <rect key="frame" x="138" y="39" width="109" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="eD5-Fc-Grf" kind="show" id="9iy-8M-gme"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="qgx-jE-V10">
+                                        <rect key="frame" x="0.0" y="800" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qgx-jE-V10" id="UVY-q3-2Pd">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="喬佛里·拜拉席恩" translatesAutoresizingMaskIntoConstraints="NO" id="BeA-dS-L4L">
+                                                    <rect key="frame" x="0.0" y="0.0" width="130" height="100"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="喬佛里·拜拉席恩" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dM0-Gi-ASq">
+                                                    <rect key="frame" x="138" y="39" width="127" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="6A9-GQ-xr7" kind="show" id="a2o-RK-9hy"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="wef-w2-Jl7">
+                                        <rect key="frame" x="0.0" y="900" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wef-w2-Jl7" id="uYr-0Z-hJO">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="提利昂·蘭尼斯特" translatesAutoresizingMaskIntoConstraints="NO" id="Qy6-1u-AvS">
+                                                    <rect key="frame" x="0.0" y="0.0" width="130" height="100"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="提利昂·蘭尼斯特" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z6l-qR-hIc">
+                                                    <rect key="frame" x="138" y="39" width="127" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="IXe-3c-O4G" kind="show" id="nrC-WJ-Phc"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="wHx-Yg-OJ8">
+                                        <rect key="frame" x="0.0" y="1000" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wHx-Yg-OJ8" id="c5E-RY-gyo">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="席恩·葛雷喬伊" translatesAutoresizingMaskIntoConstraints="NO" id="PT0-l1-jFS">
+                                                    <rect key="frame" x="0.0" y="0.0" width="130" height="100"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="席恩·葛雷喬伊" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U3d-X3-gPr">
+                                                    <rect key="frame" x="138" y="39" width="109" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="TC4-wE-hNs" kind="show" id="kql-sq-6Qf"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="Tay-Qt-SAj">
+                                        <rect key="frame" x="0.0" y="1100" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Tay-Qt-SAj" id="zxu-He-6C4">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="泰溫·蘭尼斯特" translatesAutoresizingMaskIntoConstraints="NO" id="yBU-ol-sM1">
+                                                    <rect key="frame" x="0.0" y="0.0" width="130" height="100"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="泰溫·蘭尼斯特" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kaa-8L-M89">
+                                                    <rect key="frame" x="138" y="39" width="109" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="bmK-04-Rya" kind="show" id="GFW-Jk-QHS"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="1ei-jq-cHo">
+                                        <rect key="frame" x="0.0" y="1200" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1ei-jq-cHo" id="l7j-O6-w2f">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="勞勃·拜拉席恩" translatesAutoresizingMaskIntoConstraints="NO" id="hoN-ZX-1EP">
+                                                    <rect key="frame" x="0.0" y="0.0" width="130" height="100"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="勞勃·拜拉席恩" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cRC-Px-tBa">
+                                                    <rect key="frame" x="138" y="39" width="109" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="d6K-en-Elj" kind="show" id="Lb8-FB-vzA"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="zLl-OL-YdH">
+                                        <rect key="frame" x="0.0" y="1300" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zLl-OL-YdH" id="3bL-h4-XE7">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="詹姆·蘭尼斯特" translatesAutoresizingMaskIntoConstraints="NO" id="RLh-OM-NXB">
+                                                    <rect key="frame" x="0.0" y="0.0" width="130" height="100"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="詹姆·蘭尼斯特" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UdN-aK-9PR">
+                                                    <rect key="frame" x="138" y="39" width="109" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="De0-Ib-66W" kind="show" id="vc1-Au-03f"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="MLY-Ft-6uu" id="3X8-cr-zVh"/>
+                            <outlet property="delegate" destination="MLY-Ft-6uu" id="1G3-7b-49X"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="Ne5-xn-rdD"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pjb-sw-PoZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="512.79999999999995" y="637.33133433283365"/>
+        </scene>
+        <!--人物介紹-->
+        <scene sceneID="qRu-iR-BG8">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="adp-Rw-XHQ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="人物介紹" image="tab_role" selectedImage="tab_role" id="zcB-DI-zbL"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="teO-uG-Xex" userLabel="Tab Bar Controller">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="MLY-Ft-6uu" kind="relationship" relationship="rootViewController" id="cQV-5e-ihP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1b3-Ny-o5q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-426" y="639"/>
+        </scene>
+        <!--家族介紹-->
+        <scene sceneID="rM5-M2-H4K">
+            <objects>
+                <tableViewController title="家族介紹" id="kzI-Z6-RLT" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="iSa-Yz-BSV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection id="sUw-ts-zus">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="nnk-HT-EaL">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nnk-HT-EaL" id="bam-Lk-ish">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="北境王國·史塔克家族" translatesAutoresizingMaskIntoConstraints="NO" id="eqe-b3-4wk">
+                                                    <rect key="frame" x="0.0" y="0.0" width="130" height="100"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="北境王國·史塔克家族" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KBe-eM-6D7">
+                                                    <rect key="frame" x="138" y="39" width="161" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="dtC-uF-5n0" kind="show" id="MeH-b8-w9M"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="6K5-Kf-u6s">
+                                        <rect key="frame" x="0.0" y="100" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6K5-Kf-u6s" id="Vkn-FT-o8K">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="凱岩王國·蘭尼斯特家族" translatesAutoresizingMaskIntoConstraints="NO" id="kmU-w9-7B9">
+                                                    <rect key="frame" x="0.0" y="0.0" width="130" height="100"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="凱岩王國·蘭尼斯特家族" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hbX-6B-cMe">
+                                                    <rect key="frame" x="138" y="39" width="179" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="EtG-Qm-tLZ" kind="show" id="Psr-s1-Ae2"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="wfD-1u-MVp">
+                                        <rect key="frame" x="0.0" y="200" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wfD-1u-MVp" id="7Ay-7I-f9L">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="風暴王國·拜拉席恩家族" translatesAutoresizingMaskIntoConstraints="NO" id="SIe-og-vS0">
+                                                    <rect key="frame" x="0.0" y="0.0" width="130" height="100"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="風暴王國·拜拉席恩家族" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xp6-1s-12R">
+                                                    <rect key="frame" x="138" y="39" width="179" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="pq2-MZ-ljv" kind="show" id="APM-r4-EK0"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="50h-ay-oIK">
+                                        <rect key="frame" x="0.0" y="300" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="50h-ay-oIK" id="0LK-wy-QRI">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="山谷王國·艾林家族" translatesAutoresizingMaskIntoConstraints="NO" id="dOk-wZ-QNK">
+                                                    <rect key="frame" x="0.0" y="0.0" width="130" height="100"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="山谷王國·艾林家族" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hAB-yn-YZ1">
+                                                    <rect key="frame" x="138" y="39" width="144" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="DZZ-Hs-sA4" kind="show" id="Veo-4G-NJ0"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="5Md-bc-gNw">
+                                        <rect key="frame" x="0.0" y="400" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5Md-bc-gNw" id="PX6-cB-wHc">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="河間王國·徒利家族" translatesAutoresizingMaskIntoConstraints="NO" id="kco-o0-GzB">
+                                                    <rect key="frame" x="0.0" y="0.0" width="130" height="100"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="河間王國·徒利家族" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cHt-Ky-EA7">
+                                                    <rect key="frame" x="138" y="39" width="144" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="FqB-zf-kv9" kind="show" id="bBP-q3-mka"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="JLK-k5-IAt">
+                                        <rect key="frame" x="0.0" y="500" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JLK-k5-IAt" id="TaQ-rx-p1r">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="河灣王國·提利爾家族" translatesAutoresizingMaskIntoConstraints="NO" id="t1s-zW-XZ6">
+                                                    <rect key="frame" x="0.0" y="0.0" width="130" height="100"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="河灣王國·提利爾家族" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6g1-rg-hpk">
+                                                    <rect key="frame" x="138" y="39" width="161" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="fem-HX-gJB" kind="show" id="mKX-p9-YRx"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="Zlm-A3-Cee">
+                                        <rect key="frame" x="0.0" y="600" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Zlm-A3-Cee" id="p0C-6Z-gs1">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="多恩領·馬泰爾家族" translatesAutoresizingMaskIntoConstraints="NO" id="TRE-s5-o4F">
+                                                    <rect key="frame" x="0.0" y="0.0" width="130" height="100"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="多恩領·馬泰爾家族" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dIq-cu-ErY">
+                                                    <rect key="frame" x="138" y="39" width="144" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="udT-FF-Shu" kind="show" id="q0v-w2-WDG"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="nls-l4-YHF">
+                                        <rect key="frame" x="0.0" y="700" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nls-l4-YHF" id="qhm-l0-CLm">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="鐵群島·葛雷喬伊家族" translatesAutoresizingMaskIntoConstraints="NO" id="ofO-bl-I1J">
+                                                    <rect key="frame" x="0.0" y="0.0" width="130" height="100"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="鐵群島·葛雷喬伊家族" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v0L-TN-0SS">
+                                                    <rect key="frame" x="138" y="39" width="161" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="x33-eM-Mwv" kind="show" id="PNN-QZ-yRi"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="cFO-rh-rlF">
+                                        <rect key="frame" x="0.0" y="800" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cFO-rh-rlF" id="hmS-Af-BL3">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="舊王朝坦格利安" translatesAutoresizingMaskIntoConstraints="NO" id="WlV-GG-HTX">
+                                                    <rect key="frame" x="0.0" y="0.0" width="130" height="100"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="舊王朝坦格利安" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jRz-LF-pap">
+                                                    <rect key="frame" x="138" y="39" width="122" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="vas-OD-A8l" kind="show" id="P3O-FM-VtF"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="kzI-Z6-RLT" id="0rD-7Q-dmu"/>
+                            <outlet property="delegate" destination="kzI-Z6-RLT" id="L0r-9G-rFF"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="ZFm-DS-jw8"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Tx-i4-eJJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="513" y="1461"/>
+        </scene>
+        <!--北境王國·史塔克家族-->
+        <scene sceneID="bnz-qx-Wgf">
+            <objects>
+                <viewController title="北境王國·史塔克家族" id="dtC-uF-5n0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yLA-zu-WXG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Bs8-ds-joi">
+                                <rect key="frame" x="0.0" y="319" width="375" height="299"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">北境王國·史塔克家族
+
+
+家徽：皚皚大地上的灰色冰原奔狼
+
+族語：凜冬將至（Winter Is Coming）
+
+位於七大王國的最北面，面積接近其他六個王國之和。七大王國中，相對應的其他六大王國常被稱作南境。北境和南境通過頸澤連接起來，頸澤易守難攻，所以北境的地位一直比較獨立，自古以來就被史塔克家族統治。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="北境王國·史塔克家族" translatesAutoresizingMaskIntoConstraints="NO" id="WHk-HL-Ip1">
+                                <rect key="frame" x="0.0" y="64" width="375" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="OrQ-8i-qR2"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xir-N8-jHw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1726" y="1461"/>
+        </scene>
+        <!--故事大綱-->
+        <scene sceneID="JMu-eQ-jHp">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pno-a0-faX" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="故事大綱" image="tab_story" selectedImage="tab_story" id="kLk-J5-atM"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dMr-nN-Fg7">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="b7d-F1-SZy" kind="relationship" relationship="rootViewController" id="3Vm-YN-dMU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g9x-FR-huA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-426.39999999999998" y="-178.56071964017991"/>
+        </scene>
+        <!--家族介紹-->
+        <scene sceneID="eRv-cn-ES5">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gFM-g8-VaB" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="家族介紹" image="tab_family" selectedImage="tab_family" id="jae-GT-IYO"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="PlE-F8-oed">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="kzI-Z6-RLT" kind="relationship" relationship="rootViewController" id="0CQ-sL-T9q"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="agV-PA-8qF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-426" y="1462"/>
+        </scene>
+        <!--凱岩王國·蘭尼斯特家族-->
+        <scene sceneID="Ppg-0X-2P9">
+            <objects>
+                <viewController title="凱岩王國·蘭尼斯特家族" id="EtG-Qm-tLZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6fj-NZ-1PY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Bmc-yA-8OO">
+                                <rect key="frame" x="0.0" y="319" width="375" height="299"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">家徽：鮮紅地上的金色咆吼猛獅
+
+
+族語：聽我怒吼（Hear me roar）
+
+位於南境的西方，境內有金礦和蘭尼斯特港口，是七大王國中最富裕的一個。最重要的家族是凱岩城的蘭尼斯特家族。
+
+城主：泰溫.蘭尼斯特，凱岩城公爵，西境守護，蘭尼斯港之盾，御前首相。蘭尼斯特家族是鐵王座上的托曼國王的主要支持者。他們自豪地宣稱血脈承襲自英雄紀元時期最具傳奇性的騙子「機靈的」蘭恩。凱岩城和金牙城的金礦使得他們成為各大家族裡最富裕的一家。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="凱岩王國·蘭尼斯特家族" translatesAutoresizingMaskIntoConstraints="NO" id="vx9-cJ-GAz">
+                                <rect key="frame" x="0.0" y="64" width="375" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="01E-nF-TSy"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B8w-Ek-Zz5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2481" y="1461"/>
+        </scene>
+        <!--河間王國·徒利家族-->
+        <scene sceneID="pok-we-vG4">
+            <objects>
+                <viewController title="河間王國·徒利家族" id="FqB-zf-kv9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SWW-oH-qhc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="E5A-Xr-0b8">
+                                <rect key="frame" x="0.0" y="319" width="375" height="299"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">家徽：越出水面的銀鱒,底色為紅藍波紋。
+
+
+族語：家族，責任，榮譽（Family, Duty, Honor）
+
+位於南境中部，連接了北境、凱岩、山谷三大王國。境內河流較多，最重要的城市奔流城三面都被河流圍繞，易守難攻。伊耿征服之前被赫倫堡的葛雷艾恩家族統治，他們本是鐵群島的鐵民。目前最重要的家族是奔流城的徒利家族，其次是孿河城的佛雷家族。
+
+城主：艾德敏·徒利伯爵（他的大姐是臨冬城主史塔克的妻子，凱特琳·史塔克夫人，二姐是萊莎·艾林，鷹巢城公爵瓊恩·艾林的遺孀。）艾德敏·徒利伯爵是第一批投效征服者伊耿的河間地領主之一。伊耿稱王后為犒賞徒利家族，將其提升為三叉戟河流域的統治者。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="河間王國·徒利家族" translatesAutoresizingMaskIntoConstraints="NO" id="sRL-YP-f53">
+                                <rect key="frame" x="0.0" y="64" width="375" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="JeA-2l-seC"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oE3-MA-eks" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2481" y="2201"/>
+        </scene>
+        <!--風暴王國·拜拉席恩家族-->
+        <scene sceneID="98U-qe-FZ2">
+            <objects>
+                <viewController title="風暴王國·拜拉席恩家族" id="pq2-MZ-ljv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VhJ-4w-IAZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="uRp-pJ-sWE">
+                                <rect key="frame" x="0.0" y="319" width="375" height="299"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">家徽：一頭金色原野上的黑色寶冠雄鹿
+
+
+族語：怒火燎原（Ours is the Fury）
+
+位於南境的東方，目前最重要的家族是風息堡的拜拉席恩家族
+
+前堡主：勞勃·拜拉席恩（國王勞勃）妻子為瑟曦·蘭尼斯特（後改為瑟曦太后）
+
+新堡主：藍禮.拜拉席恩
+
+史坦尼斯·拜拉席恩和藍禮·拜拉席恩是勞勃的兩個弟弟，當勞勃推翻瘋王並成為現今國王后，他將風息堡交給藍禮繼承，並將前一個王朝的本營、海上要道龍石島交給了史坦尼斯接管。在風息堡里寄養著國王勞勃的私生子，艾德瑞克·暴風。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="風暴王國·拜拉席恩家族" translatesAutoresizingMaskIntoConstraints="NO" id="OXa-Zd-sR9">
+                                <rect key="frame" x="0.0" y="64" width="375" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="d4Z-jw-dU6"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tir-aB-NV2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3273" y="1461"/>
+        </scene>
+        <!--山谷王國·艾林家族-->
+        <scene sceneID="qvt-Dv-V1v">
+            <objects>
+                <viewController title="山谷王國·艾林家族" id="DZZ-Hs-sA4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CCp-Ik-wfn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Lua-1x-thp">
+                                <rect key="frame" x="0.0" y="319" width="375" height="299"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">家徽：天藍為底的一彎白色新月和獵鷹
+
+族語：高如榮耀（High as honor）
+
+位於南境的東北，境內多山，易守難攻。最重要的家族是鷹巢城的艾林家族，其次是谷地的羅伊斯家族。安達爾人入侵後被艾林家族統治。
+
+城主：勞勃•艾林，鷹巢城公爵，艾林谷的守衛者（母親是徒利家族的萊莎·徒利，也就是凱特琳的妹妹），一名體弱多病的八歲男孩，小名喚作「乖羅賓」。他的母親為前首相瓊恩•艾林公爵遺孀，他的繼父，培提爾•貝里席，外號「小指頭」，赫倫堡公爵，三叉戟河流域總督，峽谷守護者。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="山谷王國·艾林家族" translatesAutoresizingMaskIntoConstraints="NO" id="Sug-Fp-GQl">
+                                <rect key="frame" x="0.0" y="64" width="375" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="pac-AS-tcf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zT3-aZ-vkk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1726" y="2201"/>
+        </scene>
+        <!--河灣王國·提利爾家族-->
+        <scene sceneID="bnJ-fP-ajz">
+            <objects>
+                <viewController title="河灣王國·提利爾家族" id="fem-HX-gJB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vst-0h-YXS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lSE-M4-wH3">
+                                <rect key="frame" x="0.0" y="319" width="375" height="299"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">家徽：綠草原上的金玫瑰
+
+族語：生生不息（Growing Strong）
+
+位於南境的西南，是物產最豐富的一個王國。河灣以前一直被園丁家族統治，目前最重要的家族是高庭的提利爾家族。
+
+城主：梅斯•提利爾，高庭公爵，南境守護，邊疆守護者，河灣至高統領。提利爾家族原本世代擔任河灣國王的總管之職，但宣稱他們的母系血統承繼自先民的園丁王「青手」加爾斯。當最後的河灣王、園丁家族的孟恩九世死於「怒火燎原」之役後，他的總管哈蘭•提利爾把高庭獻給征服者伊耿。作為回報，伊耿將高庭城堡和河灣地區的統治權賜給了哈蘭。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="河灣王國·提利爾家族" translatesAutoresizingMaskIntoConstraints="NO" id="Q7w-jW-Bbj">
+                                <rect key="frame" x="0.0" y="64" width="375" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="oaE-v6-jJg"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ppf-LA-W3u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3273" y="2201"/>
+        </scene>
+        <!--多恩領·馬泰爾家族-->
+        <scene sceneID="Q0j-CY-qhH">
+            <objects>
+                <viewController title="多恩領·馬泰爾家族" id="udT-FF-Shu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Kg6-3W-iII">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="uud-2V-Ahz">
+                                <rect key="frame" x="0.0" y="319" width="375" height="299"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">家徽：一輪紅日被金槍所貫穿
+
+族語:不屈不撓（Unbent, Unbowed, Unbroken）
+
+位於南境的東南，境內遍布沙漠和高山，民風彪悍。多恩和其他王國通過山脈隔離開來，是最後一個被坦格利安家族納入管轄的國家，而且是通過聯姻而非戰爭。多恩和河灣的邊疆地是世仇。最重要的家族是陽戟城的馬泰爾家族。
+
+城主：道朗•納梅洛斯•馬泰爾，陽戟城公爵，多恩領親王。他的妻子，自由貿易城邦諾佛斯的梅拉莉歐。多恩王國是七大王國中最後對鐵王座效忠的國度，血脈、習俗、地理和歷史使得多恩人在維斯特洛人中特質明顯。「五王之戰」初期，多恩沒有參加任何一邊；但在崔斯丹王子和彌賽菈•拜拉席恩公主訂婚之後，陽戟城宣布支持喬佛里國王的事業。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="多恩領·馬泰爾家族" translatesAutoresizingMaskIntoConstraints="NO" id="SWV-BV-7GU">
+                                <rect key="frame" x="0.0" y="64" width="375" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="NOL-rf-qIT"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sxs-Oq-Kgw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1726" y="2946"/>
+        </scene>
+        <!--鐵群島·葛雷喬伊家族-->
+        <scene sceneID="23l-WK-UIV">
+            <objects>
+                <viewController title="鐵群島·葛雷喬伊家族" id="x33-eM-Mwv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CH4-1T-PbI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="WeR-xO-Ira">
+                                <rect key="frame" x="0.0" y="319" width="375" height="299"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">家徽：海怪
+
+族語：強取勝於苦耕（We Do Not Sow）
+
+位於北境的西南，盛產鹽和鐵，曾經以海盜為生。
+
+城主：巴隆·葛雷喬伊，曾在與史塔克家族戰爭中失去二子，小兒子被送到史塔克家。
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="鐵群島·葛雷喬伊家族" translatesAutoresizingMaskIntoConstraints="NO" id="Uwp-HO-Yij">
+                                <rect key="frame" x="0.0" y="64" width="375" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="4sf-hU-ZMM"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l6B-hi-02W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2481" y="2946"/>
+        </scene>
+        <!--舊王朝坦格利安-->
+        <scene sceneID="wJf-ob-gcz">
+            <objects>
+                <viewController title="舊王朝坦格利安" id="vas-OD-A8l" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gxm-1N-VWJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="763-uD-rpT">
+                                <rect key="frame" x="0.0" y="319" width="375" height="299"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">家徽：黑底紅色的三頭火龍
+
+族語：血火同源（Blood and fire）
+
+坦格利安是古代瓦雷利亞自由城邦的貴族後裔，同是也是龍族傳人，他們的特徵是異常顯眼（也有人說是「非人」）的美貌，有著紫羅蘭或靛藍色眼瞳，銀金色或白金色頭髮。龍王伊耿的祖先逃離了瓦雷利亞的滅亡末日，以及隨之而來的種種混亂與屠殺，並且定居於狹海中崎嶇多岩的龍石島。後該家族隨著瘋王被推翻而失勢。
+
+現任女王：丹妮莉絲•坦格利安一世，彌林女王，安答爾人、羅伊拿人和先民的女王，七國統治者暨全境守護者，大草原上多斯拉克人的卡麗熙，人稱風暴降生，不焚者，龍之母。她的龍，雷哥、韋賽利昂和卓耿。她的大哥，雷加，龍石島親王，在三叉戟河一役為勞勃•拜拉席恩所殺，二哥，韋賽里斯三世，被人喚作「乞丐王」，以熔金加冕而死。她的丈夫為多斯拉克人的領導者卓戈，多斯拉克卡奧。她的護衛為巴利斯坦•賽爾彌爵士，外號「無畏的巴利斯坦」，曾是勞勃國王駕前的御林鐵衛隊長。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="舊王朝坦格利安" translatesAutoresizingMaskIntoConstraints="NO" id="StX-Ay-fd5">
+                                <rect key="frame" x="0.0" y="64" width="375" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="xZT-vj-DCZ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qjp-z5-L8K" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3273" y="2946"/>
+        </scene>
+        <!--瓊恩·雪諾-->
+        <scene sceneID="eHe-n3-JxS">
+            <objects>
+                <viewController title="瓊恩·雪諾" id="k8B-8y-m58" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SdL-wh-lTt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4Ez-8b-dih">
+                                <rect key="frame" x="0.0" y="319" width="375" height="299"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">瓊恩和他同父異母的兄弟姐妹，即艾德·史塔克嫡生的孩子，一起在父親的撫養下長大（瓊恩成長得更快些）。因此，他有著史塔克家族和北方人的榮譽感，這也使他在面臨在道德上複雜模糊的問題時作出與之相符的決定。艾德待瓊恩如嫡出，而瓊恩也和他同父異母的兄弟姐妹，特別是羅柏和艾莉亞相處愉快。他一直對於自己私生子的身份耿耿於懷，時常感到自己像個局外人，最終決定加入出身並不重要的守夜人軍團。而這，也同時意味著他必須要忘記自己的過去。糾結於此良久後，他逐漸明白身著黑衣的責任，選擇遵守自己立下的誓言，完全忠於守夜人。
+
+瓊恩被認為馬術高超且很有劍術天賦。從剛會走路起他就開始接受劍術訓練。瓊恩比他的哥哥羅柏劍術更好。他一直信仰舊神。
+
+儘管只有十四歲，瓊恩卻比他同父異母的兄弟姐妹們有更明顯的史塔克家族特徵。他體格精瘦，臉長，有著黑褐色的頭髮和一雙灰色的眼睛。在加入守夜人後瓊恩一直衣著守夜人的黑色斗篷。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="瓊恩·雪諾1" translatesAutoresizingMaskIntoConstraints="NO" id="sYY-yy-7Sn">
+                                <rect key="frame" x="0.0" y="64" width="375" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="TBv-tR-O7i"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vMH-Xg-EtB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1726" y="9"/>
+        </scene>
+        <!--艾德·史塔克-->
+        <scene sceneID="p19-Cg-PKa">
+            <objects>
+                <viewController title="艾德·史塔克" id="u5c-FD-tR6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EDm-wT-V7T">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="在北方保護著維斯特洛的7國。他是一個對榮譽有陣很嚴肅感情的人，並且擁有一些沉重的秘密。他與勞勃·拜拉席恩同為鷹巢城公爵瓊恩·艾林的養子， 兩人一起長大。奈德是勞勃奪權的關鍵人物，幫助他從伊裏斯·坦格利安手裏奪權，贏得了鐵王座。他娶了凱瑟琳·徒利為妻。" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tyn-SZ-lKz">
+                                <rect key="frame" x="0.0" y="319" width="375" height="299"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="史塔克家族領主" translatesAutoresizingMaskIntoConstraints="NO" id="7xe-sM-mIa">
+                                <rect key="frame" x="0.0" y="64" width="375" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Z58-V2-C9K"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q1s-LN-WJg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2481" y="9"/>
+        </scene>
+        <!--凱特琳·徒利-->
+        <scene sceneID="Fx0-vN-sC5">
+            <objects>
+                <viewController title="凱特琳·徒利" id="2BO-ZK-xuT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xaU-2b-Q5b">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SPB-Lk-E16">
+                                <rect key="frame" x="0.0" y="319" width="375" height="299"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">凱特琳·徒利（Catelyn Tully）是臨冬城夫人，艾德·史塔克公爵之妻。她的娘家是河間地的徒利家族。將她嫁給北境公爵促成了河間地與北境的聯盟。她有五個孩子，並對每一個都懷有深深的愛，在一系列事件襲擊史塔克家族後，如何拯救她的孩子們成為了她做出各種決斷的主要考量。她沒能逃過紅色婚禮的浩劫，但她似乎將以另一種形式歸來。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="凱特琳·史塔克1" translatesAutoresizingMaskIntoConstraints="NO" id="YQ2-SB-BAH">
+                                <rect key="frame" x="0.0" y="64" width="375" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="VV1-WQ-Bft"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bFb-aQ-BAX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3273" y="9"/>
+        </scene>
+        <!--布蘭登·史塔克-->
+        <scene sceneID="5kC-Tn-5PB">
+            <objects>
+                <viewController title="布蘭登·史塔克" id="FRM-IH-Yr0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e2J-Fx-SMm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7Yw-0M-yzN">
+                                <rect key="frame" x="0.0" y="319" width="375" height="299"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">布蘭登·史塔克（Bran Stark），通常被簡稱為布蘭，他是艾德和凱特琳的次子。嚴重的摔傷導致了他終生殘疾，這極大的改變了他的生活。他需要僕人阿多的背負才能完成日常的活動。布蘭有一隻名叫夏天的冰原狼，並且他具有狼靈的能力，可以與狼精神相通。他還是一位綠先知，有時會做預言的夢。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="布蘭·史塔克1" translatesAutoresizingMaskIntoConstraints="NO" id="Q0N-rC-CXk">
+                                <rect key="frame" x="0.0" y="64" width="375" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="JDR-oi-j2f"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SnS-Oa-TWL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4079" y="9"/>
+        </scene>
+        <!--丹妮莉絲·坦格利安-->
+        <scene sceneID="LOz-tP-TSo">
+            <objects>
+                <viewController title="丹妮莉絲·坦格利安" id="BKa-sA-3HO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eUw-tg-moW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="丹妮莉絲·坦格利安（Daenerys Targaryen），也被稱作「風暴降生」丹妮莉絲或者丹妮，是古老的坦格利安王朝最後的傳人。她在童年時一直作為他人政治砝碼，直到嫁給卓戈卡奧後，逐漸成長為一個令人敬畏的女王和奴隸解放者。" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="uWR-jY-5Wa">
+                                <rect key="frame" x="0.0" y="319" width="375" height="299"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="丹妮莉絲·坦格利安1" translatesAutoresizingMaskIntoConstraints="NO" id="sWp-I6-0Nw">
+                                <rect key="frame" x="0.0" y="64" width="375" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="FZc-5Z-FaX"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qui-8k-HAO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4868" y="9"/>
+        </scene>
+        <!--珊莎·史塔克-->
+        <scene sceneID="Vly-G1-E3N">
+            <objects>
+                <viewController title="珊莎·史塔克" id="Dsz-I4-bCi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bVS-9A-IAE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="珊莎·史塔克（Sansa Stark）是凱特琳·徒利和艾德·史塔克的長女。她有三個兄弟羅柏，布蘭和瑞肯，還有一個妹妹，艾莉亞。她曾和七大王國的王儲喬佛里·拜拉席恩訂婚，也曾與提利昂·蘭尼斯特有一段強扭的姻緣。現在，她正化名雅萊恩·石東藏身於艾林谷。" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="uOA-eN-ne1">
+                                <rect key="frame" x="0.0" y="319" width="375" height="299"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="史塔克家族長女" translatesAutoresizingMaskIntoConstraints="NO" id="iFe-Xv-nmx">
+                                <rect key="frame" x="0.0" y="64" width="375" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="TNM-Xv-2f4"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7mO-CR-sA2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5697" y="9"/>
+        </scene>
+        <!--艾莉亞·史塔克-->
+        <scene sceneID="e3q-b7-4fc">
+            <objects>
+                <viewController title="艾莉亞·史塔克" id="EqO-W8-nRI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sst-ew-tYn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MPA-D5-EbN">
+                                <rect key="frame" x="0.0" y="319" width="375" height="299"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">艾莉亞·史塔克（Arya Stark）是艾德和凱特琳的第三個孩子，也是他們的次女。她在《權力遊戲》開始時九歲。她有三個兄弟羅柏、布蘭和瑞肯，一個同父異母的哥哥瓊恩·雪諾，以及一個姐姐珊莎。
+
+和她的兄弟們一樣，她有時會夢見自己是一隻冰原狼。她的冰原狼名叫娜梅莉亞，名字源自洛伊拿的戰士女王娜梅莉亞。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="艾麗婭·史塔克1" translatesAutoresizingMaskIntoConstraints="NO" id="KD5-YQ-RDf">
+                                <rect key="frame" x="0.0" y="64" width="375" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="0fk-uN-kPR"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I7L-BU-7UW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6500" y="9"/>
+        </scene>
+        <!--瑟曦·蘭尼斯特-->
+        <scene sceneID="Pf2-SC-Ulx">
+            <objects>
+                <viewController title="瑟曦·蘭尼斯特" id="eD5-Fc-Grf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="guh-QQ-hO8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="瑟曦·蘭尼斯特（Cersei Lannister）是泰溫公爵和喬安娜夫人的長女，是詹姆·蘭尼斯特的孿生姐姐。在篡奪者戰爭之後她嫁給了新王勞勃·拜拉席恩，成為七大王國的王后。" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PpR-sw-26Q">
+                                <rect key="frame" x="0.0" y="319" width="375" height="299"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="瑟曦·蘭尼斯特1" translatesAutoresizingMaskIntoConstraints="NO" id="Eqp-sf-dS2">
+                                <rect key="frame" x="0.0" y="64" width="375" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="eVt-zo-4CM"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VwF-fm-IUf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1726" y="699"/>
+        </scene>
+        <!--喬佛里·拜拉席恩-->
+        <scene sceneID="Zv5-Wv-bl9">
+            <objects>
+                <viewController title="喬佛里·拜拉席恩" id="6A9-GQ-xr7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="f4u-lG-JWj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="喬佛里·拜拉席恩（Joffrey Baratheon），公開身份是勞勃·拜拉席恩國王和瑟曦·蘭尼斯特王后的長子及繼承人，真實身份是詹姆·蘭尼斯特與瑟曦·蘭尼斯特的亂倫所生子。" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ziV-bL-IuR">
+                                <rect key="frame" x="0.0" y="319" width="375" height="299"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="喬佛里·拜拉席恩1" translatesAutoresizingMaskIntoConstraints="NO" id="u1Z-xG-4wf">
+                                <rect key="frame" x="0.0" y="64" width="375" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="fOa-nm-avb"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UFR-AL-KNC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2481" y="699"/>
+        </scene>
+        <!--提利昂·蘭尼斯特-->
+        <scene sceneID="X9j-gw-8X2">
+            <objects>
+                <viewController title="提利昂·蘭尼斯特" id="IXe-3c-O4G" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VCf-Yc-zpN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="31v-Yh-tgn">
+                                <rect key="frame" x="0.0" y="319" width="375" height="299"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">提利昂·蘭尼斯特（Tyrion Lannister）是泰溫公爵和喬安娜夫人的第三個也是最小的孩子。因為是個侏儒，他有時候被戲稱為小惡魔和半人。他利用自己的智慧屢次化險為夷，幫助蘭尼斯特家族贏得了五王之戰，但命運的不公使得他成為了一個弒親者和通緝犯，踏上了流亡之路。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="提利昂·蘭尼斯特1" translatesAutoresizingMaskIntoConstraints="NO" id="APN-nC-V1l">
+                                <rect key="frame" x="0.0" y="64" width="375" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="bbZ-Ca-BgN"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6he-Io-XoP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3273" y="699"/>
+        </scene>
+        <!--席恩·葛雷喬伊-->
+        <scene sceneID="EI4-fn-c34">
+            <objects>
+                <viewController title="席恩·葛雷喬伊" id="TC4-wE-hNs" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WSq-Jn-xdT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="席恩·葛雷喬伊（Theon Greyjoy）是巴隆·葛雷喬伊大王（後自封為國王）的兒子和繼承人。在葛雷喬伊叛亂結束後，席恩被艾德·史塔克帶走作為人質和養子。他後來成為海婊子號船長。" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="M7Z-Oc-aWZ">
+                                <rect key="frame" x="0.0" y="319" width="375" height="299"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="席恩·葛雷喬伊1" translatesAutoresizingMaskIntoConstraints="NO" id="7fo-gb-EPL">
+                                <rect key="frame" x="0.0" y="64" width="375" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="3Wi-mb-Fh7"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f6u-EK-Og5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4078" y="699"/>
+        </scene>
+        <!--凱馮·蘭尼斯特-->
+        <scene sceneID="6Ut-im-TCg">
+            <objects>
+                <viewController title="凱馮·蘭尼斯特" id="bmK-04-Rya" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JTZ-1P-ZUQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="凱馮·蘭尼斯特（Kevan Lannister）爵士是泰溫·蘭尼斯特公爵的長弟，瑟曦、詹姆與提利昂的叔叔。他長期是泰溫的得力助手，兄長死後成為家族的重要支柱。" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="h2V-5R-MTw">
+                                <rect key="frame" x="0.0" y="319" width="375" height="299"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="凱馮·蘭尼斯特1" translatesAutoresizingMaskIntoConstraints="NO" id="AWS-8x-oc7">
+                                <rect key="frame" x="0.0" y="64" width="375" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="w5U-HX-UfZ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WuP-fD-YI1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4868" y="699"/>
+        </scene>
+        <!--勞勃·拜拉席恩-->
+        <scene sceneID="VZ6-6W-yxF">
+            <objects>
+                <viewController title="勞勃·拜拉席恩" id="d6K-en-Elj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ca7-Nf-Vzd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Jae-h1-iow">
+                                <rect key="frame" x="0.0" y="319" width="375" height="299"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">勞勃·拜拉席恩（Robert Baratheon）是風息堡公爵，拜拉席恩家族的族長。在篡奪者戰爭後，勞勃加冕成為七國國王。 為了救回萊安娜·史塔克，他和她的哥哥也就是他的好朋友奈德發動了戰爭。由於萊安娜的逝世，勞勃迎娶了瑟曦·蘭尼斯特以確保政治局勢的穩定。在小說的開頭，他是維斯特洛大陸的國王。他在一次打獵中被野豬刺傷，傷重不治而亡。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="勞勃·拜拉席恩1" translatesAutoresizingMaskIntoConstraints="NO" id="7NJ-bK-SpH">
+                                <rect key="frame" x="0.0" y="64" width="375" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="OfU-dj-kqJ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t33-3c-cQH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5697" y="699"/>
+        </scene>
+        <!--詹姆·蘭尼斯特-->
+        <scene sceneID="Piu-C9-GCm">
+            <objects>
+                <viewController title="詹姆·蘭尼斯特" id="De0-Ib-66W" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nWk-fk-eeD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gBa-Ki-d9x">
+                                <rect key="frame" x="0.0" y="319" width="375" height="299"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">詹姆·蘭尼斯特（Jaime Lannister），是凱岩城領主泰溫·蘭尼斯特和他的妻子喬安娜夫人的第二個孩子，同時也是他們的長子。詹姆年僅十五歲就加入了瘋王伊里斯的御林鐵衛，是這支享有極高聲譽的傳奇性騎士隊伍史上最年輕的成員。當他在篡奪者戰爭之中背叛伊里斯國王，並將其殺死在鐵王座下的時候，世人又送給他「弒君者」這個充滿輕蔑和鄙視意味的外號。
+
+詹姆一直都與他的雙胞胎姐姐瑟曦秘密維持著肉體關係。他們一共生有二子一女：喬佛里、彌塞菈和托曼，儘管如此，在大多數人眼中，三個孩子一直被視為瑟曦和他的丈夫勞勃國王所生。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="詹姆·蘭尼斯特1" translatesAutoresizingMaskIntoConstraints="NO" id="PW2-ft-vog">
+                                <rect key="frame" x="0.0" y="64" width="375" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="L4D-OZ-kX6"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ezy-Pd-pCx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6500" y="699"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="tab_family" width="30" height="30"/>
+        <image name="tab_role" width="30" height="30"/>
+        <image name="tab_story" width="30" height="30"/>
+        <image name="丹妮莉絲·坦格利安1" width="1024" height="576"/>
+        <image name="丹妮莉絲•坦格利安" width="301" height="301"/>
+        <image name="凱岩王國·蘭尼斯特家族" width="295" height="295"/>
+        <image name="凱特琳·史塔克1" width="700" height="365"/>
+        <image name="凱薩琳·(徒利)·史塔克" width="385" height="385"/>
+        <image name="凱馮·蘭尼斯特1" width="300" height="168"/>
+        <image name="勞勃·拜拉席恩" width="200" height="200"/>
+        <image name="勞勃·拜拉席恩1" width="640" height="360"/>
+        <image name="北境王國·史塔克家族" width="600" height="600"/>
+        <image name="史塔克家族長女" width="937" height="560"/>
+        <image name="史塔克家族領主" width="1024" height="576"/>
+        <image name="喬佛里·拜拉席恩" width="640" height="640"/>
+        <image name="喬佛里·拜拉席恩1" width="1280" height="662"/>
+        <image name="多恩領·馬泰爾家族" width="323" height="323"/>
+        <image name="奈德·史塔克公爵" width="368" height="368"/>
+        <image name="山谷王國·艾林家族" width="250" height="250"/>
+        <image name="布蘭·史塔克" width="640" height="640"/>
+        <image name="布蘭·史塔克1" width="1920" height="1080"/>
+        <image name="席恩·葛雷喬伊" width="490" height="489"/>
+        <image name="席恩·葛雷喬伊1" width="700" height="394"/>
+        <image name="提利昂·蘭尼斯特" width="333" height="333"/>
+        <image name="提利昂·蘭尼斯特1" width="700" height="467"/>
+        <image name="河灣王國·提利爾家族" width="257" height="257"/>
+        <image name="河間王國·徒利家族" width="250" height="250"/>
+        <image name="泰溫·蘭尼斯特" width="285" height="285"/>
+        <image name="珊莎·史塔克" width="326" height="326"/>
+        <image name="瑟曦·蘭尼斯特" width="300" height="300"/>
+        <image name="瑟曦·蘭尼斯特1" width="618" height="314"/>
+        <image name="瓊恩·雪諾" width="635" height="635"/>
+        <image name="瓊恩·雪諾1" width="970" height="645"/>
+        <image name="第七季" width="1096" height="1310"/>
+        <image name="舊王朝坦格利安" width="346" height="346"/>
+        <image name="艾莉亞·史塔克" width="366" height="366"/>
+        <image name="艾麗婭·史塔克1" width="600" height="400"/>
+        <image name="詹姆·蘭尼斯特" width="250" height="250"/>
+        <image name="詹姆·蘭尼斯特1" width="960" height="638"/>
+        <image name="鐵群島·葛雷喬伊家族" width="377" height="377"/>
+        <image name="風暴王國·拜拉席恩家族" width="420" height="420"/>
+    </resources>
 </document>
